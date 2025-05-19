@@ -1,0 +1,165 @@
+/* Light Theme (default) */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, sans-serif;
+  background-color: #f4f5f7;
+  color: #1f1f1f;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: #1c1c1e;
+  color: #f0f0f0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+body.dark .container {
+  background: #2a2a2c;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.header h1 {
+  margin: 0;
+}
+.toggle-btn {
+  padding: 0.4rem 1rem;
+  border: none;
+  background: #0077cc;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+body.dark .toggle-btn {
+  background: #5ea1ff;
+}
+
+/* Description */
+.description {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+body.dark .description {
+  color: #bbb;
+}
+
+/* Form grid */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.form-grid input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+body.dark .form-grid input {
+  background-color: #3a3a3c;
+  color: #f0f0f0;
+  border: 1px solid #555;
+}
+
+/* Button */
+.recommend-btn {
+  padding: 0.7rem 1.5rem;
+  background-color: #0066cc;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.recommend-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+body.dark .recommend-btn {
+  background-color: #3883ff;
+}
+
+/* Results Section */
+.results-section {
+  margin-top: 2rem;
+}
+.results-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.results-placeholder {
+  color: #888;
+}
+
+/* Comp Cards */
+.comp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.comp-card {
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+body.dark .comp-card {
+  background: #303033;
+  border-color: #444;
+}
+.comp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.comp-score {
+  font-size: 1rem;
+}
+
+/* Explanation list */
+.explanation-list {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+}
+
+/* Feedback */
+.feedback-form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+.feedback-form select {
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+.feedback-submit {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feedback-submit:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "subject": {
+      "gla": 1300.0,
+      "lot_size_sf": 2600.0,
+      "num_beds": 3,
+      "num_baths": 1.0,
+      "year_built": 2000,
+      "effective_date": "2025-05-18",
+      "latitude": 44.2501,
+      "longitude": -75.8678,
+      "structure_type": "Townhouse",
+      "style": "2 storey",
+      "condition": "Good",
+      "basement": "Finished",
+      "subject_age": null,
+      "effective_age": null
+    },
+    "comp_id": 293769,
+    "feedback_score": 2.0
+  },
+  {
+    "subject": {
+      "gla": 1044.0,
+      "lot_size_sf": null,
+      "num_beds": 3,
+      "num_baths": 1.5,
+      "year_built": 1976,
+      "effective_date": "",
+      "latitude": null,
+      "longitude": null,
+      "structure_type": "Townhouse",
+      "style": "2 Storey",
+      "condition": "Average",
+      "basement": "Finished",
+      "subject_age": null,
+      "effective_age": null
+    },
+    "comp_id": 99234,
+    "feedback_score": 1.0
+  }
+]
