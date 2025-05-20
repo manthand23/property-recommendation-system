@@ -12,7 +12,7 @@ if not backups:
     print("No backups found.")
     exit()
 
-print("📦 Available backups:")
+print("Available backups:")
 for i, file in enumerate(backups):
     print(f"[{i}] {file.name}")
 
