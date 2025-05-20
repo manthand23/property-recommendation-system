@@ -8,7 +8,7 @@ if not LOG_FILE.exists():
     print("No retrain log found.")
     exit()
 
-print("📜 Retrain Log Summary (Grouped by Session)\n------------------------------------------")
+print("Retrain Log Summary (Grouped by Session)\n------------------------------------------")
 
 sessions = defaultdict(list)
 current_session = None
