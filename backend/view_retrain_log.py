@@ -31,6 +31,6 @@ with LOG_FILE.open("r") as log:
 
 # Print grouped sessions
 for session_time in sorted(sessions.keys()):
-    print(f"\n📦 Session: {session_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"\n Session: {session_time.strftime('%Y-%m-%d %H:%M:%S')}")
     for dt, msg in sessions[session_time]:
         print(f"  • {msg}")
